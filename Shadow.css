@@ -1,0 +1,36 @@
+body{
+  background:darkcyan;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+   flex-direction:column;
+   gap:20px;
+}
+
+h1{
+  color:black;
+}
+.btn{
+  background: cyan;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  
+ 
+}
+.btn:active{
+  background:white;
+   transform: scale(0.95);
+}
+
+input{
+  padding:15px;
+  width:250px;
+  border:none;
+  border-radius:10px;
+  font-size:18px;
+}
